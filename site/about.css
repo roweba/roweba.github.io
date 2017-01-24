@@ -1,0 +1,216 @@
+body {
+  background: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+}
+
+li {
+    float: right;
+}
+
+lo {
+  float:left;
+  display:block;
+  padding: 14px 16px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 23px;
+}
+
+lo a {
+  text-decoration: none;
+  color:black;
+}
+
+lo a:hover {
+  color: #FFEBEB;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  /*  background-color: #FFEBEB;*/
+    color: #FFEBEB;
+}
+
+.active {
+    background-color: #FFEBEB;
+}
+
+#main{
+  width: 1050px;
+  height: 1000px;
+  background: #ffffff;
+  margin: 50px auto;
+  color:#858585;
+  /*border: solid 4px #c1c7c9;*/
+}
+
+h1{
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  padding-bottom: 10px;
+  color:black;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+h1:after {
+  background: none repeat scroll 0 0 #111;
+  content: " ";
+  display: block;
+  height: 1px;
+  margin: 24px auto 0;
+  width: 80px; }
+
+h2{
+  text-align: left;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  color:black;
+	line-height: 26.4px;
+  animation: fadein 2s;
+  padding: 1px;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+h3{
+  text-align: right;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  color:black;
+	line-height: 26.4px;
+  animation: fadein 2s;
+  padding: 1px;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+h4{
+  text-align: left;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  color:black;
+	line-height: 26.4px;
+  animation: fadein 2s;
+  padding: 1px;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+p {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+img{
+  height:200px;
+  width: auto;
+  margin: 20px;
+}
+
+footer {
+  position:relative;
+   bottom:0;
+   width:100%;
+   height:0px;
+   border-top: solid 1px #d1d1d1;
+   font-size: 1px;
+   color:#828282;
+
+}
+
+footer a{
+  text-decoration: none;
+  color:#FA8998;
+}
+
+#main p {
+    margin-top: 25px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#pic{
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
