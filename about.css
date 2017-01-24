@@ -58,7 +58,7 @@ li a:hover {
 
 #main{
   width: 1050px;
-  height: 1000px;
+  height: 900px;
   background: #ffffff;
   margin: 50px auto;
   color:#858585;
@@ -121,22 +121,6 @@ h3{
   -o-animation: fadein 2s; /* Opera */
 }
 
-h4{
-  text-align: left;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-  color:black;
-	line-height: 26.4px;
-  animation: fadein 2s;
-  padding: 1px;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
-}
-
 p {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
@@ -144,6 +128,33 @@ p {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+}
+#pleft {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  text-align: left;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+#pright {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  text-align: right;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 img{

@@ -52,7 +52,7 @@ li a:hover {
     color: #FFEBEB;
 }
 
-a{
+a {
   color: #F77E7E;
   text-decoration: none;
 }
@@ -65,7 +65,7 @@ a:hover {
     background-color: #FFEBEB;
 }
 
-#main{
+#main {
   width: 1050px;
   height: 200px;
   background: #ffffff;
@@ -73,7 +73,7 @@ a:hover {
   /*border: solid 4px #c1c7c9;*/
 }
 
-h1{
+h1 {
   text-align: center;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 40px;
@@ -95,12 +95,8 @@ h1:after {
   height: 1px;
   margin: 24px auto 0;
   width: 80px; }
-/*hr{
-  height: 2px;
-  color: #ff3819;
-}*/
 
-p{
+p {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	font-style: normal;
@@ -173,12 +169,7 @@ footer a{
         opacity: 1;
     }
 }
-#pic{
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
-}
+
 form{
   margin-top: 40px;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
