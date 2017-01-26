@@ -5,7 +5,15 @@ body {
 }
 
 @font-face {
-  font-family: Dosis; src: url('Dosis-Light.otf');
+  font-family: DosisLight; src: url('Dosis-Light.otf');
+}
+
+@font-face {
+  font-family: DosisExtraLight; src: url('Dosis-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: PaperDaisy; src: url('paperdaisy-demo.ttf');
 }
 
 /* Effect 1: Brackets */
@@ -63,9 +71,9 @@ li {
 lo {
   float:left;
   display:block;
-  padding: 14px 16px;
-  font-family: Dosis, sans-serif;
-  font-size: 25px;
+  padding: 12px 12px;
+  font-family: PaperDaisy, sans-serif;
+  font-size: 38px;
 }
 
 lo a {
@@ -86,9 +94,10 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
-    font-family: Dosis, sans-serif;
+    font-family: DosisLight, sans-serif;
+    font-size: 17px;
 }
 
 li a:hover {
@@ -118,13 +127,12 @@ a:hover {
   height: 200px;
   background: #ffffff;
   margin: 50px auto;
-  /*border: solid 4px #c1c7c9;*/
 }
 
 h1 {
   text-align: center;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 40px;
+  font-family: DosisLight, sans-serif;
+	font-size: 45px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -145,7 +153,7 @@ h1:after {
   width: 80px; }
 
 p {
-  font-family: Dosis, sans-serif;
+  font-family: DosisExtraLight, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -220,7 +228,7 @@ footer a{
 
 form{
   margin-top: 40px;
-  font-family: Dosis, sans-serif;
+  font-family: DosisLight, sans-serif;
 	font-size: 19px;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
