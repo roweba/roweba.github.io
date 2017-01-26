@@ -4,6 +4,10 @@ body {
   padding-top: 30px;
 }
 
+@font-face {
+  font-family: Dosis; src: url('Dosis-Light.otf');
+}
+
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
@@ -60,8 +64,8 @@ lo {
   float:left;
   display:block;
   padding: 14px 16px;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 23px;
+  font-family: Dosis, sans-serif;
+  font-size: 25px;
 }
 
 lo a {
@@ -84,7 +88,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: Dosis, sans-serif;
 }
 
 li a:hover {
@@ -141,8 +145,8 @@ h1:after {
   width: 80px; }
 
 p {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 14px;
+  font-family: Dosis, sans-serif;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -216,8 +220,8 @@ footer a{
 
 form{
   margin-top: 40px;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 17px;
+  font-family: Dosis, sans-serif;
+	font-size: 19px;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
