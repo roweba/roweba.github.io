@@ -1,17 +1,17 @@
 body {
-  background: #ffffff;
+  background: #FFFFFF;
   text-align: center;
   padding-top: 30px;
 }
 
  @font-face {
-   font-family: DosisLight; src: url('Dosis-Light.otf');
+   font-family: DosisLight; src: url('dosis/Dosis-Light.otf');
  }
  @font-face {
-   font-family: DosisExtraLight; src: url('Dosis-ExtraLight.otf');
+   font-family: DosisExtraLight; src: url('dosis/Dosis-ExtraLight.otf');
  }
  @font-face {
-   font-family: PaperDaisy; src: url('paperdaisy-demo.ttf');
+   font-family: PaperDaisy; src: url('paper_daisy/paperdaisy-demo.ttf');
  }
 
 /* Effect 1: Brackets */
@@ -51,22 +51,18 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 0.95;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.95;
 }
 
-li {
-    float: right;
-}
-
-lo {
+#name {
   float:left;
   display:block;
   padding: 12px 12px;
@@ -74,30 +70,31 @@ lo {
   font-size: 38px;
 }
 
-lo a {
+#name a {
   text-decoration: none;
   color:black;
 }
 
-lo a:hover {
+#name a:hover {
   color: #FFEBEB;
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-family: DosisLight, sans-serif;
-    font-size: 17px;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: DosisLight, sans-serif;
+  font-size: 17px;
 }
 
 li a:hover {
-    color: #FFEBEB;
+  color: #FFEBEB;
 }
 
-a{
+a {
   color: #F77E7E;
   text-decoration: none;
   -o-transition:.5s;
@@ -108,23 +105,31 @@ a{
 }
 
 a:hover {
-    color: #FFEBEB;
+  color: #FFEBEB;
 }
 
 .active {
-    background-color: #FFEBEB;
+  background-color: #FFEBEB;
 }
 
-#main{
+#main {
   width: 1050px;
   height: 200px;
-  background: #ffffff;
+  background: #FFFFFF;
   margin: 50px auto;
   color:#858585;
-  /*border: solid 4px #c1c7c9;*/
 }
 
-h1{
+#main p {
+  margin-top: 25px;
+  text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+h1 {
   text-align: center;
   font-family: DosisLight, sans-serif;
 	font-size: 45px;
@@ -148,7 +153,7 @@ h1:after {
   margin: 24px auto 0;
   width: 80px; }
 
-p{
+p {
   font-family: DosisExtraLight, sans-serif;
 	font-size: 17px;
 	font-style: normal;
@@ -157,10 +162,17 @@ p{
 	line-height: 20px;
 }
 
-img{
+img {
   height:300px;
   width: auto;
   margin: 20px;
+}
+
+#pic {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 footer {
@@ -171,23 +183,8 @@ footer {
    border-top: solid 1px #d1d1d1;
    font-size: 1px;
    color:#828282;
-
-
 }
 
-footer a{
-  text-decoration: none;
-  color:#FA8998;
-}
-
-#main p {
-    margin-top: 25px;
-    text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
 @keyframes fadein {
     from {
         opacity:0;
@@ -219,10 +216,4 @@ footer a{
     to {
         opacity: 1;
     }
-}
-#pic{
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
 }

@@ -1,19 +1,19 @@
 body {
-  background: #ffffff;
+  background: #FFFFFF;
   text-align: center;
   padding-top: 30px;
 }
 
 @font-face {
-  font-family: DosisLight; src: url('Dosis-Light.otf');
+  font-family: DosisLight; src: url('dosis/Dosis-Light.otf');
 }
 
 @font-face {
-  font-family: DosisExtraLight; src: url('Dosis-ExtraLight.otf');
+  font-family: DosisExtraLight; src: url('dosis/Dosis-ExtraLight.otf');
 }
 
 @font-face {
-  font-family: PaperDaisy; src: url('paperdaisy-demo.ttf');
+  font-family: PaperDaisy; src: url('paper_daisy/paperdaisy-demo.ttf');
 }
 
 /* Effect 1: Brackets */
@@ -53,19 +53,15 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 0.95;
-}
-
-li {
-    float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.95;
 }
 
 lo {
@@ -91,31 +87,32 @@ lo a:hover {
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-family: DosisLight, sans-serif;
-    font-size: 17px;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: DosisLight, sans-serif;
+  font-size: 17px;
 }
 
 li a:hover {
     color: #FFEBEB;
 }
 
-a{
+a {
   color: #F77E7E;
   text-decoration: none;
 }
 
 a:hover {
-    color: #FFEBEB;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.3s;
+  color: #FFEBEB;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.3s;
 }
 
 .active {
@@ -125,8 +122,17 @@ a:hover {
 #main {
   width: 1050px;
   height: 200px;
-  background: #ffffff;
+  background: #FFFFFF;
   margin: 50px auto;
+}
+
+#main p {
+  margin-top: 25px;
+  text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 h1 {
@@ -154,7 +160,7 @@ h1:after {
 
 p {
   font-family: DosisExtraLight, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -162,37 +168,26 @@ p {
   color:#858585;
 }
 
-img{
-  height:200px;
-  width: auto;
-  margin: 20px;
-}
-
 footer {
   position:absolute;
-   bottom:0;
-   width:100%;
-   height:70px;
-   border-top: solid 1px #d1d1d1;
-   font-size: 1px;
-   color:#828282;
-
-
+  bottom:0;
+  width:100%;
+  height:70px;
+  border-top: solid 1px #d1d1d1;
+  font-size: 1px;
+  color:#828282;
 }
 
-footer a{
-  text-decoration: none;
-  color:#FA8998;
+form {
+  margin-top: 40px;
+  font-family: DosisLight, sans-serif;
+	font-size: 19px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
-#main p {
-    margin-top: 25px;
-    text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
 @keyframes fadein {
     from {
         opacity:0;
@@ -224,14 +219,4 @@ footer a{
     to {
         opacity: 1;
     }
-}
-
-form{
-  margin-top: 40px;
-  font-family: DosisLight, sans-serif;
-	font-size: 19px;
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
 }

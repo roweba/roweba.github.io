@@ -1,17 +1,17 @@
 body {
-  background: #ffffff;
+  background: #FFFFFF;
   text-align: center;
   padding-top: 30px;
 }
 
 @font-face {
-  font-family: DosisLight; src: url('Dosis-Light.otf');
+  font-family: DosisLight; src: url('dosis/Dosis-Light.otf');
 }
 @font-face {
-  font-family: DosisExtraLight; src: url('Dosis-ExtraLight.otf');
+  font-family: DosisExtraLight; src: url('dosis/Dosis-ExtraLight.otf');
 }
 @font-face {
-  font-family: PaperDaisy; src: url('paperdaisy-demo.ttf');
+  font-family: PaperDaisy; src: url('paper_daisy/paperdaisy-demo.ttf');
 }
 
 /* Effect 1: Brackets */
@@ -51,22 +51,18 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 0.95;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.95;
 }
 
-li {
-    float: right;
-}
-
-lo {
+#name {
   float:left;
   display:block;
   padding: 12px 12px;
@@ -74,45 +70,52 @@ lo {
   font-size: 38px;
 }
 
-lo a {
+#name a {
   text-decoration: none;
   color:black;
 }
 
-lo a:hover {
+#name a:hover {
   color: #FFEBEB;
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-family: DosisLight, sans-serif;
-    font-size: 17px;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: DosisLight, sans-serif;
+  font-size: 17px;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  /*  background-color: #FFEBEB;*/
-    color: #FFEBEB;
+  color: #FFEBEB;
 }
 
 .active {
-    background-color: #FFEBEB;
+  background-color: #FFEBEB;
 }
 
-#main{
+#main {
   width: 1050px;
-  height: 800px;
-  background: #ffffff;
+  height: 900px;
+  background: #FFFFFF;
   margin: 50px auto;
   color:#858585;
-  /*border: solid 4px #c1c7c9;*/
 }
 
-h1{
+#main p {
+    margin-top: 25px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+h1 {
   text-align: center;
   font-family: DosisLight, sans-serif;
 	font-size: 45px;
@@ -136,7 +139,7 @@ h1:after {
   margin: 24px auto 0;
   width: 80px; }
 
-h2{
+h2 {
   text-align: left;
   font-family: DosisLight, sans-serif;
 	font-size: 22px;
@@ -152,8 +155,24 @@ h2{
   -o-animation: fadein 2s; /* Opera */
 }
 
-h3{
+h3 {
   text-align: right;
+  font-family: DosisLight, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  color:black;
+	line-height: 26.4px;
+  animation: fadein 2s;
+  padding: 1px;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+h4 {
+  text-align: center;
   font-family: DosisLight, sans-serif;
 	font-size: 22px;
 	font-style: normal;
@@ -176,6 +195,7 @@ p {
 	font-weight: 400;
 	line-height: 20px;
 }
+
 #pleft {
   font-family: DosisExtraLight, sans-serif;
 	font-size: 17px;
@@ -204,36 +224,26 @@ p {
   -o-animation: fadein 2s; /* Opera */
 }
 
-img{
-  height:200px;
-  width: auto;
-  margin: 20px;
+a {
+  color: #F77E7E;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.3s;
 }
 
 footer {
   position:relative;
-   bottom:0;
-   width:100%;
-   height:0px;
-   border-top: solid 1px #d1d1d1;
-   font-size: 1px;
-   color:#828282;
-
+  bottom:0;
+  width:100%;
+  height:0px;
+  border-top: solid 1px #d1d1d1;
+  font-size: 1px;
+  color:#828282;
 }
 
-footer a{
-  text-decoration: none;
-  color:#FA8998;
-}
-
-#main p {
-    margin-top: 25px;
-    text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
 @keyframes fadein {
     from {
         opacity:0;
@@ -265,14 +275,4 @@ footer a{
     to {
         opacity: 1;
     }
-}
-
-a{
-  color: #F77E7E;
-  text-decoration: none;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.3s;
 }
