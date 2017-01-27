@@ -168,6 +168,10 @@ h1:after {
   font-family: DosisExtraLight,sans-serif;
   color: #858585;
   top: 25px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 #mail {
@@ -176,24 +180,10 @@ h1:after {
   position: relative;
   left:52px;
   top:77px;
-}
-
-#linkedin {
-  font-size: 40px;
-  font-family: DosisExtraLight, sans-serif;
-  position: relative;
-  top:140px;
-  right: 240px;
-}
-
-p {
-  font-family: DosisExtraLight, sans-serif;
-	font-size: 17px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-  color:#858585;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 #mailicon {
@@ -202,6 +192,22 @@ p {
   top: 90px;
   height:45px;
   width:auto;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+#linkedin {
+  font-size: 40px;
+  font-family: DosisExtraLight, sans-serif;
+  position: relative;
+  top:140px;
+  right: 240px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 #linkedinicon {
@@ -210,6 +216,10 @@ p {
   top: 145px;
   height:40px;
   width:auto;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 footer {
