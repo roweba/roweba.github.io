@@ -16,6 +16,10 @@ body {
   font-family: PaperDaisy; src: url('paper_daisy/paperdaisy-demo.ttf');
 }
 
+@font-face {
+  font-family: Adam; src: url('adam/Adam.otf');
+}
+
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
@@ -94,7 +98,7 @@ li a {
   padding: 14px 10px;
   text-decoration: none;
   font-family: DosisLight, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 li a:hover {
@@ -137,11 +141,11 @@ a:hover {
 
 h1 {
   text-align: center;
-  font-family: DosisLight, sans-serif;
+  font-family: Adam, sans-serif;
 	font-size: 45px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 26.4px;
   padding-bottom: 10px;
   animation: fadein 2s;
@@ -158,6 +162,30 @@ h1:after {
   margin: 24px auto 0;
   width: 80px; }
 
+#txt {
+  position: relative;
+  font-size: 35px;
+  font-family: DosisExtraLight,sans-serif;
+  color: #858585;
+  top: 25px;
+}
+
+#mail {
+  font-size: 40px;
+  font-family: DosisExtraLight, sans-serif;
+  position: relative;
+  left:52px;
+  top:77px;
+}
+
+#linkedin {
+  font-size: 40px;
+  font-family: DosisExtraLight, sans-serif;
+  position: relative;
+  top:140px;
+  right: 240px;
+}
+
 p {
   font-family: DosisExtraLight, sans-serif;
 	font-size: 17px;
@@ -166,6 +194,22 @@ p {
 	font-weight: 400;
 	line-height: 20px;
   color:#858585;
+}
+
+#mailicon {
+  position: relative;
+  left:350px;
+  top: 90px;
+  height:45px;
+  width:auto;
+}
+
+#linkedinicon {
+  position: relative;
+  left:305px;
+  top: 145px;
+  height:40px;
+  width:auto;
 }
 
 footer {
