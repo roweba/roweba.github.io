@@ -222,6 +222,16 @@ h1:after {
   -o-animation: fadein 2s; /* Opera */
 }
 
+p {
+  font-family: DosisExtraLight, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  color:#858585;
+}
+
 footer {
   position:absolute;
   bottom:0;
