@@ -87,7 +87,7 @@ lo a {
 }
 
 lo a:hover {
-  color: #FFEBEB;
+  color: #c36464;
 }
 
 li a {
@@ -102,16 +102,16 @@ li a {
 }
 
 li a:hover {
-    color: #FFEBEB;
+    color: #c36464;
 }
 
 a {
-  color: #F77E7E;
+  color: #c36464;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFEBEB;
+  color: #FCCFC2;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;

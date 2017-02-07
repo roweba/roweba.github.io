@@ -82,7 +82,7 @@ ul {
 }
 
 #name a:hover {
-  color: #FFEBEB;
+  color: #c36464;
 }
 
 li a {
@@ -97,7 +97,7 @@ li a {
 }
 
 li a:hover {
-  color: #FFEBEB;
+  color: #c36464;
 }
 
 .active {
@@ -187,7 +187,7 @@ p {
 }
 
 a {
-  color: #F77E7E;
+  color: #c36464;
   text-decoration: none;
   -o-transition:.5s;
   -ms-transition:.5s;

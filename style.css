@@ -75,17 +75,18 @@ ul {
 
 #name a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 #name a:hover {
-  color: #FFEBEB;
+  color: #c36464;
 }
 
 li a {
   float: right;
   display: block;
-  color: black;
+  /*color:#8b7272; */
+  color:black;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
@@ -94,11 +95,11 @@ li a {
 }
 
 li a:hover {
-  color: #FFEBEB;
+  color: #c36464;
 }
 
 a {
-  color: #F77E7E;
+  color: #c36464;
   text-decoration: none;
   -o-transition:.5s;
   -ms-transition:.5s;
