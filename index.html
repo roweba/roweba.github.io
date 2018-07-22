@@ -1,40 +1,148 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>ROZH</title>
-  <link href="style.css" type="text/css" rel="stylesheet">
-  <link rel=”shortcut icon” href=”favicon.ico” type="image/x-icon" />
-  <link rel=”icon” href=”favicon.ico” type="image/x-icon" />
-  <ul>
-  <div id="name"><a href="index.html">[ rowena zhu ]</a></div>
-  <nav class="cl-effect-1" id="cl-effect-1">
-  <li><a href="contact.html">CONTACT</a></li>
-  <li><a href="http://github.com/roweba" target="_blank">GITHUB</a></li>
-  <li><a href="rowena-resume.pdf" target="blank">RESUME</a></li>
-  <li><a href="index.html">HOME</a></li>
-</nav>
-</ul>
-  <body>
-    <div id="main">
-     <h1>HOME</h1>
-      <img src="22460768.png" align="right" id="pic">
-    <p>Welcome to my page!
-      This website is hosted on <a href="http://github.com/roweba" target="_blank">GitHub Pages</a>.</p>
-    </p>
-    <p>My name is Rowena Zhu and I am a fourth year Computer Science student at the University of Victoria.
-    I am currently pursuing a Bachelor of Computer Science - Software Engineering option with Co-op.
-  My current employer is <a href="https://openschool.bc.ca/" target="_blank">Open School BC</a>, where I'm doing a co-op in Agile software development.</p>
-<p>Programming is a great passion of mine, and I enjoy sharing my love of technology with others. During school I worked part time as a Youth STEM Instructor
-at <a href="http://scienceventure.ca" target="_blank">Science Venture</a>. I have also volunteered with <a href="https://www.canadalearningcode.ca/program/ladies-learning-code/" target="_blank">Ladies Learning Code</a>, and UVic computer science clubs.</p>
-    <p>I am interested software development and computer networking. In my classes, I have studied algorithms/data structures, software engineering principles, computer networking, and computer hardware. I have always loved creating new things, and the way
-      programming allows me to do that is one of the main reasons I chose my career.
-    </p>
-  </div>
-  </body>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<footer>
-  <p>© Rowena Zhu</p>
-  <p>Victoria, British Columbia</p>
-</footer>
+<body>
+  <nav class="blue lighten-4" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">[ rowena zhu ]</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="resume.pdf" target="_blank">RESUME</a></li>
+        <li><a href="http://github.com/roweba" target="_blank">GITHUB</a></li>
+        <!--<li><a href="http://github.com/roweba" target="_blank">CONTACT</a></li> -->
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        <li><a href="http://github.com/roweba" target="_blank">Github</a></li>
+        <!--<li><a href="http://github.com/roweba" target="_blank">Contact</a></li> -->
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+    <!--  <br><br>
+      <h1 class="header center orange-text">Home</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div> -->
+      <div class="row center">
+        <div class="col s12 m12 l6"><img src="IMG_0709.JPG" id="pic" class="circle"></div>
+      <div class="col s12 m12 l6">
+        <div id="description">
+        <p> My name is Rowena Zhu and I am a fourth year Computer Science student at the University of Victoria. I am currently pursuing a Bachelor of Computer Science - Software Engineering option with Co-op.</p>
+         <p>I have always loved creating new things, and the way programming allows me to do that is one of the main reasons I chose my career. Through work/volunteer experience, along with personal projects, I've developed a broad range of skills as a developer. </p>
+         <br>
+      </div>
+        <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">computer</i>Web Development / AI</div>
+          <div class="collapsible-body"><span>For my second co-op term, I worked at Open School BC. I helped build a chatbot AI and developed skills in HTML, CSS, JavaScript, PHP, and SQL.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">school</i>STEM Education</div>
+          <div class="collapsible-body"><span>During my third year at UVic, I took on the role of a Youth STEM Instrcutor at Science Venture. I developed cirriculum for a youth coding club, and taught programming to a group of young girls.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">wifi</i>Networks</div>
+          <div class="collapsible-body"><span>For my first co-op term at the BC Ministry of Citizens' services, I worked on a wireless network analysis project. I gathered data on wireless coverage in buildings and analyzed what could be improved for better coverage.</span></div>
+        </li>
+      </ul> </div>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+    <!--  <div class="row"> -->
+<!--        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+      <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>-->
+      <!--</div> -->
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer blue lighten-4">
+    <!--<div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <div class="footer-copyright">
+      <div class="container">
+        <style>.heart{color:#e25555;}</style>
+        Made with <span class="heart">❤</span> in Victoria
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
